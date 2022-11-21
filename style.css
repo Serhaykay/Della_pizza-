@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.2);
+}
+.navbar{
+    background: #fff;
+    padding: 10px 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px #000;
+}
+#btn{
+    padding: 5px 12px;
+    background: #06ed79;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    border-top: 2px solid palegreen;
+
+}
+.container h4{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 25px;
+}
+.container form{
+    background-color: #fff;
+    padding: 15px 25px;
+    margin: 50px auto;
+    width: 50%;
+}
+.container form div{
+    padding-top: 30px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+}
+.container form div input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 25px auto;
+    outline: none;
+    margin-top: 15px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.sub-btn{
+    padding: 10px 12px;
+    background: #06ed79;
+    outline: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.errortext{
+    color: red;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
